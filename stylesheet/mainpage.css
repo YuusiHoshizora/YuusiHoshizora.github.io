@@ -1,0 +1,91 @@
+.introduction{
+    display: flex;
+    height: 100vh;
+    background-image: url(../background/116287274_p0.png);
+    background-color: #3A3072;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.introduction p{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.introduction div{
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    z-index: 2;
+}
+.introduction div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3%;
+    width: 106%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+.introduction h2, .introduction h3, .introduction p{
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.introduction div:hover::before{
+    opacity: 1;
+}
+.introduction p {
+    opacity: 0;
+    transform: translateY(10px);
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.introduction div:hover h2, .introduction div:hover h3 {
+    transform: translateY(-10px);
+}
+.introduction div:hover p {
+    opacity: 1;
+    max-height: 500px;
+    transform: translateY(0);
+}
+.rnm h2, .rnm h3 {
+    color: #C0C0C0;
+    transition: color 0.3s ease, transform 0.3s ease;
+    will-change: color, transform;
+}
+.introduction .rnm:hover h2, .introduction .rnm:hover h3 {
+    color: #4FC3F7;
+    transition: color 0.3s ease, transform 0.3s ease;
+    will-change: color, transform;
+}
+.inc h2, .inc h3 {
+    color: #C0C0C0;
+    transition: color 0.3s ease, transform 0.3m ease;
+    will-change: color, transform;
+}
+.introduction .inc:hover h2, .introduction .inc:hover h3 {
+    color: #FFFAF0;
+    transition: color 0.3s ease, transform 0.3s ease;
+    will-change: color, transform;
+}
+.md h2, .md h3 {
+    color: #C0C0C0;
+    transition: color 0.3s ease, transform 0.3m ease;
+    will-change: color, transform;
+}
+.introduction .md:hover h2, .introduction .md:hover h3 {
+    color: #D32F2F;
+    transition: color 0.3s ease, transform 0.3s ease;
+    will-change: color, transform;
+}
