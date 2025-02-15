@@ -13,11 +13,12 @@
 }
 .purpose {
     transition: background-color 0.3s ease-in-out;
-    padding: 1%;
+    padding: 1% 1% 2% 1%;
+    text-align: center;
 }
 .purpose:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1%;
+    padding: 1% 1% 2% 1%;
 }
 .purpose h1 {
     text-align: center;
@@ -29,7 +30,7 @@
     width: 80vw;
     padding: 0.5vh 0;
 }
-.backbutton a{
+.purpose a{
     color: #C0C0C0;
     text-decoration: none;
     border:1px solid #C0C0C0;
@@ -37,10 +38,10 @@
     border-radius: 5px;
     transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease;
 }
-.backbutton a:hover{
+.purpose a:hover{
     color: #FFD700;
+    text-align: center;
     border:1px solid #FFD700;
-    padding: 10px 20px;
     border-radius: 5px;
     background-color: rgba(225, 180, 0, 0.2);
 }
