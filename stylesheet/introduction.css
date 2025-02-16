@@ -1,0 +1,37 @@
+.mainpart {
+    background-color: #3A3072;
+    color: #C0C0C0;
+    height: 100vh;
+    background-image: url(../background/116287274_p0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.purpose {
+    transition: background-color 0.3s ease-in-out;
+    padding: 1% 1% 2% 1%;
+    text-align: center;
+}
+.purpose:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1% 1% 2% 1%;
+}
+.purpose p {
+    text-align: center;
+    width: 80vw;
+    padding: 0.5vh 0;
+}
+.mainpart h1{
+    text-align: center;
+    font-size: 4vw;
+    margin: 1vh;
+}
+.mainpart h2{
+    text-align: center;
+    font-size: 2vw;
+    margin: 1vh;
+}
