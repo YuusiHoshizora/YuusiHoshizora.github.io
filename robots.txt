@@ -1,3 +1,5 @@
 # robots.txt for yuusihosizora.github.io/
-#
-# This webside is dedicated to the creation and sharing 
+User-agent: *
+Allow: /
+
+Sitemap: https://yuusihoshizora.github.io/sitemap.xml
