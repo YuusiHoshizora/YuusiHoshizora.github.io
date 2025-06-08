@@ -38,6 +38,24 @@
 .mainpart a{
     text-decoration: none;
 }
-.mainpart a:hover{
+.fleet {
+    transition: color 0.3s ease;
+}
+.rnmf {
+    color:#3DAEFF;
+}
+.incf {
+    color: #DBA400;
+}
+.mdf {
+    color: #FF0000;
+}
+.rnmf:hover {
+    color: #FFD700;
+}
+.incf:hover {
+    color: #FFD700;
+}
+.mdf:hover {
     color: #FFD700;
 }
