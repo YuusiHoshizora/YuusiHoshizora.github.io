@@ -35,3 +35,9 @@
     font-size: 2vw;
     margin: 1vh;
 }
+.mainpart a{
+    text-decoration: none;
+}
+.mainpart a:hover{
+    color: #FFD700;
+}
