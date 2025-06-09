@@ -65,7 +65,7 @@
     will-change: color, transform;
 }
 .introduction .rnm:hover h2, .introduction .rnm:hover h3 {
-    color: #4FC3F7;
+    color: #3DAEFF;
     transition: color 0.3s ease, transform 0.3s ease;
     will-change: color, transform;
 }
@@ -75,7 +75,7 @@
     will-change: color, transform;
 }
 .introduction .inc:hover h2, .introduction .inc:hover h3 {
-    color: #FFFAF0;
+    color: #DBA400;
     transition: color 0.3s ease, transform 0.3s ease;
     will-change: color, transform;
 }
@@ -85,7 +85,7 @@
     will-change: color, transform;
 }
 .introduction .md:hover h2, .introduction .md:hover h3 {
-    color: #D32F2F;
+    color: #FF0000;
     transition: color 0.3s ease, transform 0.3s ease;
     will-change: color, transform;
 }
