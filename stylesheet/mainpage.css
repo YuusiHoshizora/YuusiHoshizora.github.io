@@ -8,9 +8,13 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.introduction p{
+.introduction a{
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    text-decoration: none;
+    color: #C0C0C0;
+    position: relative;
+    z-index: 3;
 }
 .introduction div{
     width: 30vw;
@@ -44,7 +48,7 @@
 .introduction div:hover::before{
     opacity: 1;
 }
-.introduction p {
+.introduction a {
     opacity: 0;
     transform: translateY(10px);
     max-height: 0;
@@ -54,7 +58,7 @@
 .introduction div:hover h2, .introduction div:hover h3 {
     transform: translateY(-10px);
 }
-.introduction div:hover p {
+.introduction div:hover a {
     opacity: 1;
     max-height: 500px;
     transform: translateY(0);
@@ -71,7 +75,7 @@
 }
 .inc h2, .inc h3 {
     color: #C0C0C0;
-    transition: color 0.3s ease, transform 0.3m ease;
+    transition: color 0.3s ease, transform 0.3s ease;
     will-change: color, transform;
 }
 .introduction .inc:hover h2, .introduction .inc:hover h3 {
@@ -81,7 +85,7 @@
 }
 .md h2, .md h3 {
     color: #C0C0C0;
-    transition: color 0.3s ease, transform 0.3m ease;
+    transition: color 0.3s ease, transform 0.3s ease;
     will-change: color, transform;
 }
 .introduction .md:hover h2, .introduction .md:hover h3 {
