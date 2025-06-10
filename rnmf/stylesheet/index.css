@@ -1,6 +1,6 @@
 .solgen {
-    background-color: #3A3072;
-    color: #C0C0C0;
+    background-color: #3DAEFF;
+    color: #696969;
     height: 100vh;
     background-image: url(../../background/90302467_p0.png);
     background-repeat: no-repeat;
@@ -20,9 +20,9 @@
     visibility: hidden;
 }
 .solgen a{
-    color: #C0C0C0;
+    color: #696969;
     text-decoration: none;
-    border:1px solid #C0C0C0;
+    border:1px solid #696969;
     padding: 10px 20px;
     border-radius: 5px;
     transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease;
@@ -35,8 +35,8 @@
     background-color: rgba(225, 180, 0, 0.2);
 }
 footer {
-    background-color: #3A3072;
-    color: #C0C0C0;
+    background-color: #3DAEFF;
+    color: #696969;
     height: 30px;
     display: flex;
     justify-content: center;
