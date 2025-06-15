@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "即使是神，我们也能解析、复现、重构";
+    const text = "发现、解析、复现、重构";
     const h2 = document.querySelector(".solgen h2");
     h2.textContent = "";
     h2.style.visibility = "visible";
